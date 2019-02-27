@@ -1,0 +1,111 @@
+body {
+
+background-color: #F5F5F5 !important;
+
+}
+
+.navbar{
+background-color : white !important;
+border-style :solid !important;
+border-color : white white#D3D3D3 !important;
+
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    height: 200px;
+    color: black;
+    text-align: center;
+}
+
+.card-link{
+    color:black;
+}
+
+.card-link:hover{
+    color:black;
+    opacity :0.75 !important;
+    box-shadow: 0px 0px 10px 5px #87AFC7 !important;
+    border-color : #87AFC7 !important;
+    transition : 0.2s !important;
+}
+
+.about{
+    flex-direction: row;
+}
+
+.card-img-bottom {
+    color: #fff;
+    height: 20rem;
+    background: url(../static/0.jpg) center no-repeat;
+    background-size: cover;
+    border : white;
+    border-width: 10px;
+    border-color: white;
+    border-style:solid;
+
+  }
+
+
+.profile-card{
+
+    height:auto;
+    width: auto;
+    color : black;
+    background-color:white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-width:0px;
+    border-color:white;
+    border-style:solid;
+    max-width: 100%
+
+}
+
+.profile-link:hover{
+text-decoration:none;
+color:black;
+
+}
+
+.img-height{
+    max-height:150px;
+    margin-top:10px;
+    border-radius:5px;
+}
+
+.header-text{
+
+    margin-top:5px;
+    font-size: calc(16px + 0.5vw);
+    font-weight: 200;
+
+
+
+}
+
+.profile-text{
+
+    font-size:calc(10px + 0.4vw);
+    font-weight: 250;
+
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.bar {
+  fill: green;
+}

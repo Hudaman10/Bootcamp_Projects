@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Map</title>
+
+  <script src="{{url_for('static', filename='js/jquery.js')}}"></script>
+  <script src="{{url_for('static', filename='leaflet/leaflet.js')}}"></script>
+  <link rel="stylesheet" href="{{url_for('static', filename='leaflet/leaflet.css')}}">
+  <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+  <link href="{{ url_for('static', filename='bootstrap/bootstrap.css') }} rel="stylesheet" media="screen">
+  
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <script src="{{ url_for('static', filename='js/d3.js') }}"></script>
+
+  <!-- Our CSS -->
+  <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+</head>
+
+<body>
+  <!-- The div where we will inject our map -->
+  <div id="map"></div>
+
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+body{
+
+    background-color: #1A1F28;
+}
+
+.text-color{
+
+    color: #91A0BD;
+}
+
+.progress-bar{
+
+    background-color:  #009CD1;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#finalResult{
+    /* text-align: justify;
+    text-justify: inter-word; */
+    /* color: #009CD1; */
+    color: #91A0BD;
+
+}
+
+a{
+    color:  #009CD1;
+}
+
+a:hover{
+
+    color:  #009CD1;
+
+}
+
+input[type="text"]{
+
+    font-weight:100;
+}
+
+.btn{
+
+    font-weight:100;
+
+}
+
+.btn-outline-secondary{
+
+    border-color: #91A0BD;
+    color:#91A0BD;
+}
+
+.btn-outline-secondary:hover{
+
+    background-color: #009CD1;
+    color:white;
+
+}

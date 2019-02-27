@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Chart</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta charset="utf-8"> -->
+  <link href="{{ url_for('static', filename='bootstrap/bootstrap.css') }} rel="stylesheet" media="screen">
+
+  <!-- Leaflet CSS & JS -->
+  
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+  <!-- Our CSS -->
+  <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+  <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+
+<body>
+  <!-- The div where we will inject our map -->
+  <h1>NBA Players by College</h1>
+  <div id="chart"></div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div id="chart">
+        </div>
+      </div>
+    </div>
+
+  <script src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/d3.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/tip.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/app2.js') }}"></script>
+  <!-- <script src="{{ url_for('static', filename='js/app3.js') }}"></script> -->
+
+   <!-- <script type="text/javascript" src="app2.js"></script> -->
+</body>
+</html>
